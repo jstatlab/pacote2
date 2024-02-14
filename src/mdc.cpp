@@ -12,7 +12,7 @@ using namespace Rcpp;
 //' @useDynLib pacote2, .registration = TRUE
 //' @importFrom Rcpp evalCpp
 //' @export
- // [[Rcpp::export]]
+// [[Rcpp::export]]
  int mdc_rcpp (int& x, int& y) {
-   return std::gcd(x, y);
+   return boost::integer::gcd(x, y);
  }

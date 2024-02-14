@@ -13,3 +13,7 @@ mdc_rcpp <- function(x, y) {
     .Call(`_pacote2_mdc_rcpp`, x, y)
 }
 
+drayleigh <- function(x, sigma) {
+    .Call(`_pacote2_drayleigh`, x, sigma)
+}
+
