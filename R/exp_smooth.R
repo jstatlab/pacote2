@@ -11,7 +11,7 @@
 #' set.seed(10)
 #' y <- cumsum(rnorm(1e5))
 #' ys <- exp_smooth(y, 0.8)
-#' plot(y, col = "grey80)
+#' plot(y, col = "grey80")
 #' lines(ys, col = "red")
 #'
 #' @export
