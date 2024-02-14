@@ -6,8 +6,8 @@ using namespace Rcpp;
 
 //' Maximo Divisor Comum
 //'
-//' @param (int) `x` Um número
-//' @param (int) `y` Um número
+//' @param x Um número (int)
+//' @param y Um número (int)
 //' @return O MDC entre `x` e `y`
 //' @useDynLib pacote2, .registration = TRUE
 //' @importFrom Rcpp evalCpp
