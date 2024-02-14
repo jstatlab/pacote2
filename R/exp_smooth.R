@@ -15,7 +15,7 @@
 #' lines(ys, col = "red")
 #'
 #' @export
-exp_smooth <- function(y, a) {
+exp_smooth <- function (y, a) {
   .Call(
     "exp_smooth_c",
     y = as.double(y),
