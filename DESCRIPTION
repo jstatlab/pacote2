@@ -1,0 +1,12 @@
+Package: pacote2
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Author: Nome Sobrenome
+Maintainer: The package maintainer <nomesobrenome@gmail.com>
+Description: This package is an introduction to creating your own R package. 
+    With this step-by-step guide, you'll be able to create your custom 
+    R package in no time.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
