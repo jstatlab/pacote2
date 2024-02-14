@@ -16,6 +16,4 @@ knitr::opts_chunk$set(
 
 ```{r setup}
 library(pacote2)
-
-mdc_rcpp(10, 2)
 ```
