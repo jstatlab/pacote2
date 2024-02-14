@@ -36,9 +36,12 @@ BEGIN_RCPP
 END_RCPP
 }
 
+RcppExport SEXP exp_smooth_c(void *, void *);
+
 static const R_CallMethodDef CallEntries[] = {
     {"_pacote2_mdc_rcpp", (DL_FUNC) &_pacote2_mdc_rcpp, 2},
     {"_pacote2_drayleigh", (DL_FUNC) &_pacote2_drayleigh, 2},
+    {"exp_smooth_c", (DL_FUNC) &exp_smooth_c, 2},
     {NULL, NULL, 0}
 };
 
