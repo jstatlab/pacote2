@@ -1,4 +1,6 @@
+// [[Rcpp::depends(RcppArmadillo)]]
 #include <RcppArmadillo.h>
+#include <math.h>
 
 //' Rayleigh's Probability Density Function
 //'
@@ -10,7 +12,6 @@
 //' @useDynLib pacote2, .registration = TRUE
 //' @importFrom Rcpp evalCpp
 //' @export
-// [[Rcpp::depends(RcppArmadillo)]]
 // [[Rcpp::export]]
 double drayleigh (double x, double sigma) {
   double y = 0.0;
